@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+/*
+a {
+	text-decoration: none;
+}*/
+html, body {
+	margin: 0;
+	padding: 0;
+}
+#middle a {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+
+#middle a:visited {
+	color: black;
+}
+
+#middle a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+#middle a:hover:after {
+	width: 100%;
+	background: #2f4f2f;
+}
+
+#nav {
+	text-align: center;
+	list-style-type: none;
+	
+}
+#nav ul {
+	margin: 0 auto;
+	padding: 0;
+	width: 75%;
+	display: table;
+	max-width: 800px;
+}
+#nav ul li
+ {
+	display: table-cell;
+	width: 25%;
+	/*background-color: red;*/
+	height: 100%;
+	margin: 0px;
+}
+
+#nav ul li a
+ {
+	text-decoration: none;
+	padding: 15px 20px;
+	background-color: #393e41;
+	display: block;
+	color: #fff;
+}
+
+#nav ul li a:visited {
+	color: #fff;
+}
+
+#nav ul li a:hover {
+	background-color: #fc2a2a;
+	color: #fff;
+}
+
+
+#header {
+	width: 100%;
+	min-width: 700px;
+	height: 40px;
+	background-color: #393e41;
+	margin: 0;
+	padding: 0;
+	display: table;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+#content {
+	/*text-align: center;*/
+	width: 50%;
+	margin: 0 auto;
+	height: 500px;
+	padding-top: 50px;
+	min-width: 350px; 
+}
+
+#content h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.5em;
+	text-align: center;
+	white-space: nowrap;
+}
+
+#content img {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+}
+
+#content p {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+#content a {
+	background-color: #3F88C5;
+	color: #fff;
+	padding: 10px 5px;
+	text-decoration: none;
+	text-align: right;
+	float: right ;
+	display: inline;
+	margin: 8px 5px 5px 5px;
+}
+
+#content a:hover {
+	text-decoration: underline;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+} 
+
+#footer {
+
+}
+/*h2 {
+	background-color: blue;
+}
+
+h2 > a {
+	position: relative;
+	color: #000;
+	text-decoration: none;
+}
+
+h2 > a:hover {
+	color: #000;
+}
+
+h2 > a:before {
+	content = "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+h2 > a:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}*/
