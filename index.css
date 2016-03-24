@@ -48,7 +48,7 @@ html, body {
 #nav ul li
  {
 	display: table-cell;
-	width: 25%;
+	width: 20%;
 	/*background-color: red;*/
 	height: 100%;
 	margin: 0px;
