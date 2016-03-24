@@ -161,6 +161,20 @@ hr {
 #footer {
 
 }
+table {
+        border: 1px solid #3399CC;
+	width: 80%;
+	border-spacing: 0;
+      }
+
+td, th {
+	 padding: 5px;
+	 border: 1px solid #3399CC;
+       }
+
+td {
+     margin: auto;
+   }
 /*h2 {
 	background-color: blue;
 }
