@@ -104,7 +104,6 @@ html, body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: calc(16px + 2vw);
 	text-align: center;
-	white-space: nowrap;
 }
 
 #content h2 { 
