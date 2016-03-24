@@ -158,6 +158,10 @@ hr {
     border-width: 1px;
 } 
 
+#em {
+	font-weight: bold;
+}
+
 #footer {
 
 }
