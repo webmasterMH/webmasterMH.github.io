@@ -90,7 +90,7 @@ html, body {
 }
 
 #content {
-	/*text-align: center;*/
+	text-align: center;
 	width: 50%;
 	margin: 0 auto;
 	height: 500px;
