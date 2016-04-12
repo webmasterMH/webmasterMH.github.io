@@ -166,7 +166,7 @@ hr {
 }
 table {
         border: 1px solid #3399CC;
-	width: 80%;
+	margin: auto;
 	border-spacing: 0;
       }
 
