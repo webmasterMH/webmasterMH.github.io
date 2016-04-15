@@ -187,25 +187,25 @@ td {
 
 @media (min-width: 780px) {
     #content p {
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 }
 
 @media (min-width: 702px) {
     #content p {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 }
 
 @media (min-width: 724px) {
     #content p {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 }
 
 @media (max-width: 623px) {
     #content p {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 }
 /*h2 {
