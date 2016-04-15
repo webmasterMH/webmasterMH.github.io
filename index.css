@@ -109,14 +109,14 @@ html, body {
 #content h2 { 
 	font-style: italic; 
 	font-family: Courier, Times New Roman, Times, serif; 
-	font-size: 12pt; 
+	font-size: 1.5em; 
 	margin-bottom: 0px; 
 	padding-bottom: 0px; 
 	}
 #content h3 { 
 	font-weight: bold; 
 	color: #0514A2;
-	font-size: 11.5pt;
+	font-size: 1.17em;
 	margin-bottom: 0px; 
 	padding-bottom: 0px;
 	}
