@@ -181,19 +181,19 @@ td {
    
    @media (min-width: 858px) {
     #content p {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 }
 
 @media (min-width: 780px) {
     #content p {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 }
 
 @media (min-width: 702px) {
     #content p {
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 }
 
